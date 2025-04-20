@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* navbar section */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 11rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-logo {
+
+    img {
+        width: 170px;
+    }
+}
+
+.navbar-link {
+    display: flex;
+    gap: 30px;
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #3D4F60;
+    }
+}
+
+.nav-btn {
+    display: flex;
+    gap: 15px;
+
+    .sign {
+        padding: 20px 25px;
+        border: 1px solid #122231;
+        font-size: 16px;
+        font-weight: 600;
+        color: #122231;
+        border-radius: 15px;
+        background-color: transparent;
+    }
+
+    .create {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        padding: 20px;
+        background-color: #122231;
+        border: none;
+        border-radius: 15px;
+    }
+}
+
+.menu-icn {
+    display: none;
+    img {
+    width: 30px;  
+    }
+}
