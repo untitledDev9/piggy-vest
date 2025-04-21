@@ -6,7 +6,7 @@
 
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
-    background-color: #F2F7F8;
+    background-color: #e7f2f4;
 }
 
 /* navbar section */
@@ -228,14 +228,37 @@ body {
 
 /* savings section */
 
+
+
 .savings {
-    padding: 0 16rem;
+    padding: 0 16rem 5rem 16rem;
+    display: grid;
+    gap: 30px;
+}
+
+.savings-text {
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    margin: 20px 0;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        color: rgb(18,34,49);
+    }
+
+    p {
+        font-size: 23px;
+        color: rgb(18,34,49);
+    }
 }
 
 .savings-col {
     display: flex;
     justify-content: space-between;
-    background-color: #ffe28a;
+    gap: 30px;
+   
 }
 
 .row {
@@ -246,39 +269,48 @@ body {
     width:490px ;
     border-radius: 20px;
     padding: 30px;
-    position: relative;
-    background-color: rgb(255, 112, 112);
 }
 
 .col-text {
     display: grid;
     gap: 20px;
-
+    color: #fff;
 
     h1 {
         font-size: 36px;
         font-weight: 700;
-        color: rgb(8, 55, 99);
     }
 
     p {
         font-size: 19px;
         font-weight: 400;
         line-height: 24px;
-        color: rgb(97, 112, 125);
         width: 70%;
     }
 }
 
-.image img {
-    position: absolute;
-    width: 280px;
-    bottom: 0;
-    right: 20px;
+.col-right,.col-left,
+.col-right-2, .col-left-2, 
+.col-right-3, .col-left-3  {
+    position: relative;
+}
+
+.image-1, .image-2,
+.image-21, .image-23,
+.image-31, .image-32{
+    img {
+        position: absolute;
+        width: 280px;
+        bottom: 0;
+        right: 20px;
+    }
 }
 
 .col-link {
+    display: flex;
+    gap: 10px;
     margin-top: auto;
+    color: #fff;
 
     img {
         width: 17px;
@@ -286,6 +318,13 @@ body {
     }
 }
 
+
+.col-right {background-color: #0F60D6;}
+.col-left {background-color: #2295F2;}
+.col-right-2 {background-color: #39C277;} 
+.col-left-2 {background-color: #E5489B;}
+.col-right-3 {background-color: #0C1825;} 
+.col-left-3 {background-color: #FF783C;}
 
 
 
@@ -341,6 +380,82 @@ body {
             font-size: 15px;
         }
     }
+
+
+    /* savings section */
+
+    .savings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0 2rem 4rem 2rem ;
+        margin: 0 auto;
+    }
+
+    .savings-text {
+        text-align: center;
+        display: grid;
+        gap: 10px;
+        margin: 10px 0;
+    
+        h1 {
+            font-size: 26px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .savings-col {
+        flex-direction: column;
+    }
+
+    .row {
+        height: 445px;
+        width:375px ;
+        padding: 25px;
+    }
+
+    .col-text {
+        display: grid;
+        gap: 15px;
+        color: #fff;
+    
+        h1 {
+            font-size: 26px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .image-1, .image-2,
+    .image-21, .image-23,
+    .image-31, .image-32{
+    img {
+        width: 200px;
+        bottom: 0;
+        right: 15px;
+    }
+}
+
+    .col-link {
+        gap: 8px;
+
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+    
 
 
 
@@ -435,6 +550,84 @@ body {
                 width: 100%;
             }
         }
+
+
+        
+    /* savings section */
+
+        .savings {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:0 2rem 4rem 2rem ;
+            margin: 0 auto;
+        }
+
+        .savings-text {
+            text-align: center;
+            display: grid;
+            gap: 10px;
+            margin: 10px 0;
+        
+            h1 {
+                font-size: 40px;
+            }
+        
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .savings-col {
+            /* flex-direction: column; */
+        }
+
+        .row {
+            height: 445px;
+            width:375px ;
+            padding: 25px;
+        }
+
+        .col-text {
+            display: grid;
+            gap: 15px;
+            color: #fff;
+        
+            h1 {
+                font-size: 26px;
+            }
+        
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .image-1, .image-2,
+        .image-21, .image-23,
+        .image-31, .image-32{
+        img {
+            width: 200px;
+            bottom: 0;
+            right: 15px;
+        }
+    }
+
+        .col-link {
+            gap: 8px;
+
+
+            img {
+                width: 14px;
+                height: 14px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+        
+
 
 
 }
