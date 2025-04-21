@@ -328,6 +328,43 @@ body {
 
 
 
+/* invest section */
+
+.invest {
+    background-color: #fff;
+    padding: 6rem 177px;
+}
+
+.card {
+    position: relative;
+    background-color: #7913E5;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 500px;
+}
+
+.card-img {
+    img {
+        position: absolute;
+        width: 350px;
+        bottom: 0;
+        right: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* media qurey */
 
 
