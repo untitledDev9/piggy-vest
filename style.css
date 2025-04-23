@@ -1210,7 +1210,7 @@ body {
 
     iframe {
         height: 384px;
-        width: 445px;
+        width: 365px;
         border-radius: 20px;
     }
 }
@@ -1239,6 +1239,11 @@ body {
 
 .join-btn {
     gap: 10px;
+}
+
+.join-img img{
+    width: 350px;
+    height: auto;
 }
 
 /* footer section */
