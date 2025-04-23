@@ -1245,7 +1245,7 @@ body {
 
 
         img {
-            width: 330px;
+            width: fit-content;
             height: 358px;
         }
     }
