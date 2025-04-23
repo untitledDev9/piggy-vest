@@ -1328,7 +1328,28 @@ body {
     display: grid;
 }
 
+/* bottom fut */
 
+.bottom-fut {
+    background-color: #ffffff;
+    /* height: 500px; */
+    padding: 60px 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    h4 {
+        font-size: 11px;
+        line-height: 22px;
+        font-weight: 400;
+        color:rgba(61, 79, 96, 0.65);
+        width: 100%;
+    }
+
+    h4:last-child {
+        color: #0089FF;
+    }
+}
 
 
 
