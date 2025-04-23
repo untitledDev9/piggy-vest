@@ -474,9 +474,15 @@ main {
 
 
 
-.col-right .col-link span svg {
+.col-link span {
     fill: red;
+    stroke: #0089FF;
 }
+
+.turn svg {
+        stroke: #0089FF;
+}
+
 .col-left:hover {
 
 }
