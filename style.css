@@ -431,8 +431,324 @@ body {
 }
 
 
+/* invest section */
+
+.invest {
+    background-color: #ffffff;
+    margin-bottom: 30rem;
+    padding: 170px 0;
+    display: grid;
+    gap: 74px;
+}
+
+.invest-text {
+    text-align: center;
+
+    h1 {
+        font-size: 51px;
+        font-weight: 700;
+        color: rgb(18,34,49);
+    }
+
+    p {
+        font-size: 24px;
+        color: rgb(61, 79, 96);
+    }
+}
+
+.invest-card {
+    background-color: #7913E5;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px 50px 0 50px;
+    height: 478px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-text {
+    display: grid;
+    gap: 30px;
+
+
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(254,214,241);
+        width: 45%;
+        line-height: 25px;
+    }
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+.inn svg {
+    /* fill: #33ff00; */
+    stroke: #ffffff;
+    width: 20px;
+    height: 20px;
+}
+
+.card-device {
+
+
+    img {
+        width: 440px;
+        height: 438px;
+    }
+}
+
+
 
 /* media qurey */
+
+
+
+
+
+
+@media (max-width: 1320px) {
+    /* navbar section */
+
+    .menu-icn {
+        display: flex;
+    }
+
+    .navbar-link, .nav-btn {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px ;
+    }
+
+
+    /* hero section */
+
+    .hero {
+        padding: 13rem 2rem 7rem 2rem; ;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .top-btn {
+        margin: 0 auto;
+    
+        h2 {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .hero-text {
+        width: 100%;
+    
+        p {
+            font-size: 15px;
+            line-height: 28px;
+            width: 100%;
+        }
+    }
+
+    .hero-img {
+        width: 50%;
+    
+    
+        img {
+            width: 100%;
+    }
+}
+
+    .hero-text-btn {
+        margin: 0 auto;
+    }
+
+
+    /* security section */
+
+    .security-text {
+
+        p {
+            font-size: 15px;
+            width: 100%;
+        }
+    }
+
+
+    
+/* savings section */
+
+    .savings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0 2rem 4rem 2rem ;
+        margin: 0 auto;
+    }
+
+    .savings-text {
+        text-align: center;
+        display: grid;
+        gap: 10px;
+        margin: 10px 0;
+    
+        h1 {
+            font-size: 40px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .savings-col {
+        /* flex-direction: column; */
+    }
+
+    .row {
+        height: 445px;
+        width:375px ;
+        padding: 25px;
+    }
+
+    .col-text {
+        display: grid;
+        gap: 15px;
+        color: #fff;
+    
+        h1 {
+            font-size: 26px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .image-1, .image-2,
+    .image-21, .image-23,
+    .image-31, .image-32{
+    img {
+        width: 200px;
+        bottom: 0;
+        right: 15px;
+    }
+}
+
+    .col-link {
+        gap: 8px;
+
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+
+    /* invest section */
+
+    .card-text {
+        display: grid;
+        gap: 20px;
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+        }
+    
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(254,214,241);
+            width: 80%;
+            line-height: 28px;
+        }
+    }
+    
+
+
+
+}
+
+
+@media (max-width: 1126px) {
+.invest-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    height: max-content;
+    gap: 40px;
+}
+
+.card-text {
+
+    p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.card-content {
+    display: grid;
+    gap: 20px;
+}
+
+.card-link {
+    margin: 0 auto;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 900px) {
@@ -560,6 +876,58 @@ body {
         }
     }
     
+    /* invest section */
+
+    .invest {
+        padding: 70px 0;
+        gap: 54px;
+    }
+    
+
+    .invest-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        height: max-content;
+        gap: 40px;
+    }
+    
+    .card-text {
+
+        h1 {
+            font-size: 30px;
+        }
+    
+        p {
+            font-size: 16px;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    
+    .card-content {
+        display: grid;
+        gap: 20px;
+    }
+    
+    .card-link {
+        margin: 0 auto;
+    }
+
+    .invest-text {
+        display: grid;
+        gap: 10px;
+    
+        h1 {
+            font-size: 37px;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    }
 
 
 
@@ -579,159 +947,3 @@ body {
 
 
 
-
-
-@media (max-width: 1320px) {
-        /* navbar section */
-
-        .menu-icn {
-            display: flex;
-        }
-    
-        .navbar-link, .nav-btn {
-            display: none;
-        }
-    
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 25px ;
-        }
-    
-    
-        /* hero section */
-    
-        .hero {
-            padding: 13rem 2rem 7rem 2rem; ;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            gap: 60px;
-        }
-    
-        .top-btn {
-            margin: 0 auto;
-        
-            h2 {
-                font-size: 14px;
-                font-weight: 500;
-            }
-        }
-    
-        .hero-text {
-            width: 100%;
-        
-            p {
-                font-size: 15px;
-                line-height: 28px;
-                width: 100%;
-            }
-        }
-    
-        .hero-img {
-            width: 50%;
-        
-        
-            img {
-                width: 100%;
-        }
-    }
-    
-        .hero-text-btn {
-            margin: 0 auto;
-        }
-
-
-        /* security section */
-
-        .security-text {
-    
-            p {
-                font-size: 15px;
-                width: 100%;
-            }
-        }
-
-
-        
-    /* savings section */
-
-        .savings {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding:0 2rem 4rem 2rem ;
-            margin: 0 auto;
-        }
-
-        .savings-text {
-            text-align: center;
-            display: grid;
-            gap: 10px;
-            margin: 10px 0;
-        
-            h1 {
-                font-size: 40px;
-            }
-        
-            p {
-                font-size: 16px;
-            }
-        }
-
-        .savings-col {
-            /* flex-direction: column; */
-        }
-
-        .row {
-            height: 445px;
-            width:375px ;
-            padding: 25px;
-        }
-
-        .col-text {
-            display: grid;
-            gap: 15px;
-            color: #fff;
-        
-            h1 {
-                font-size: 26px;
-            }
-        
-            p {
-                font-size: 14px;
-            }
-        }
-
-        .image-1, .image-2,
-        .image-21, .image-23,
-        .image-31, .image-32{
-        img {
-            width: 200px;
-            bottom: 0;
-            right: 15px;
-        }
-    }
-
-        .col-link {
-            gap: 8px;
-
-
-            img {
-                width: 14px;
-                height: 14px;
-            }
-
-            p {
-                font-size: 14px;
-            }
-        }
-        
-
-
-
-}
